@@ -10,8 +10,8 @@ public class Main {
         int c = sc.nextInt();
 
         int sum = a + b + c;
-        double avg = (double)(sum) / 3;
+        int avg = sum / 3;
 
-        System.out.printf("%d\n%.0f", sum, avg);
+        System.out.printf("%d\n%d", sum, avg);
     }
 }
