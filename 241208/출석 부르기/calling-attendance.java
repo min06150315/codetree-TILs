@@ -14,7 +14,7 @@ public class Main {
         } else if (a == 3) {
             res = "Paul";
         } else {
-            res = "Vancancy";
+            res = "Vacancy";
         }
         System.out.println(res);
     }
