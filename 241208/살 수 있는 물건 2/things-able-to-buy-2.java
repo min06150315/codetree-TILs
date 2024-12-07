@@ -11,8 +11,10 @@ public class Main {
             res = "book";
         } else if (a >= 1000) {
             res = "mask";
-        } else {
+        } else if (a >= 500) {
             res = "pen";
+        } else {
+            res = "no";
         }
         System.out.println(res);
     }
