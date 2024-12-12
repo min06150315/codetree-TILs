@@ -38,19 +38,5 @@ public class Main {
             result = 0;
         }
         System.out.println(result);
-
-        if (a == b) {
-            result = 1;
-        } else {
-            result = 0;
-        }
-        System.out.println(result);
-
-        if (a != b) {
-            result = 1;
-        } else {
-            result = 0;
-        }
-        System.out.println(result);
     }
 }
