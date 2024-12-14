@@ -8,7 +8,7 @@ public class Main {
         int n = sc.nextInt();
         String res;
 
-        if ((n % 2 == 1 || n % 3 == 0) || (n % 2 == 0 || n % 5 == 0)) {
+        if ((n % 2 == 1 && n % 3 == 0) || (n % 2 == 0 && n % 5 == 0)) {
             res = "true";
         } else {
             res = "false";
